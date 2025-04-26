@@ -11,7 +11,11 @@ body {
   .card {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  
+  #carrusel:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+  }
   .navbar {
     background-color: #005c65;
   }
@@ -19,11 +23,12 @@ body {
   h1, h3, h5{
     color:white;
   }
- h2, p{
+
+  h2, p{
     
     color: #005c65;
  }
-p{
+  p{
     color: #5a5a5a;
   }
   

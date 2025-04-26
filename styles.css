@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    background: linear-gradient(90deg, #33adb9, #33adb9);
+  }
+  .carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .navbar {
+    background-color: #005c65;
+  }
+
+  h1, h3, h5{
+    color:white;
+  }
+ h2, p{
+    
+    color: #005c65;
+ }
+p{
+    color: #5a5a5a;
+  }
+  
+  .btn-primary {
+    background-color: #005c65;
+    border: none;
+  }
